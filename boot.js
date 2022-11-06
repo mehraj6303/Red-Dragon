@@ -261,10 +261,10 @@ Time  =  ${xtime} `
    //dont forget to put my name(Xeon) as credit
    //you fail to put, i sue you for sure!
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '🐈‍⬛🙏WELCOME🙏🐈‍⬛'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '🙏कैसा लगा हमारा ग्रुप रेड ड्रैगन🙏'}, type: 1}
     ]
 let buttonMessage = {
-    image: { url: 'https://i.pcmag.com/imagery/articles/0135ByLmdg5WEyh2dPLsHAC-1.fit_lim.v1660325011.jpg'},
+    image: { url: 'https://i.ibb.co/0h3Sv26/20220805-080104.jpg'},
 caption: xeonbody,
 footer: `${footer}`,
 buttons,
@@ -279,7 +279,7 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: xeonbuffer, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
-                     xeonbody = `😒🌹 Bye👋 @${xeonName.split("@")[0]}
+                     xeonbody = `😒🌹 चले जाओ फिर मत आना👋 @${xeonName.split("@")[0]}
 
 😒🌹 Left From  ${metadata.subject}
 😒🌹 ${xeonmembers} Members
@@ -288,10 +288,10 @@ Date =  ${xeondate}
 Time =  ${xeontime} `
 
    let buttons = [
-    {buttonId: `owner`, buttonText: {displayText: '👎BYE👎🥱'}, type: 1}
+    {buttonId: `owner`, buttonText: {displayText: '👎चले जाओ फिर मत आना👎🙏'}, type: 1}
     ]
     let buttonMessage = {
-        image: { url: 'https://i.ibb.co/7t2NKk0/1664694023784.jpg'},
+        image: { url: 'https://i.ibb.co/H4h3mh4/20220805-080200.jpg'},
     caption: xeonbody,
     footer: `${footer}`,
     buttons,
